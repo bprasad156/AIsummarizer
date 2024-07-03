@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import TextInputArea from '../components/TextInputArea';
-import UrlInputField from '../components/UrlInputField';
-import ResultsDisplay from '../components/ResultDisplay';
-import HistorySection from '../components/HistorySection';
-import LoadingSpinner from '../components/LoadingSpinner';
-import { fetchContentFromUrl } from '../utils/WebScraping';
+import TextInputArea from '../TextInput';
+import UrlInputField from '../UrlInput';
+import ResultsDisplay from '../ResultDisplay';
+import HistorySection from '../historySection';
+import LoadingSpinner from '../loadingspinner';
+import { fetchContentFromUrl } from '../WebScraping';
 import { getAISummary } from '../utils/aiSummarization';
 
 const Dashboard = () => {
